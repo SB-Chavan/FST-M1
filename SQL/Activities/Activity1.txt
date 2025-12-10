@@ -1,0 +1,24 @@
+--Activity 1
+CREATE TABLE salesman(
+    salesman_id int PRIMARY KEY,
+    salesman_name varchar2 (20),
+    salesman_city varchar2 (20),
+    commission int
+)
+
+
+---Output:
+Table SALESMAN created.
+Elapsed: 00:00:00.019
+
+
+
+Query: DESCRIBE salesman
+
+Name          Null?    Type         
+------------- -------- ------------ 
+SALESMAN_ID   NOT NULL NUMBER(38)   
+SALESMAN_NAME          VARCHAR2(20) 
+SALESMAN_CITY          VARCHAR2(20) 
+COMMISSION             NUMBER(38)   
+

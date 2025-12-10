@@ -1,0 +1,7 @@
+--Activity 4
+Alter TABLE salesman ADD grade int;
+
+UPDATE salesman set grade =100;
+
+
+SELECT * from SALESMAN;
