@@ -1,0 +1,15 @@
+-- Activity 7:
+    --Write an SQL statement to find the total purchase amount of all orders.
+    Select SUM(PURCHASE_AMOUNT) AS "Total sum" from ORDERS;
+
+    --Write an SQL statement to find the average purchase amount of all orders.
+    Select AVG(PURCHASE_AMOUNT) from ORDERS;
+
+    --Write an SQL statement to get the maximum purchase amount of all the orders.
+    Select MAX(PURCHASE_AMOUNT) from ORDERS;
+
+    --Write an SQL statement to get the minimum purchase amount of all the orders.
+    Select MIN(PURCHASE_AMOUNT) from ORDERS;
+
+    --Write an SQL statement to find the number of salesmen listed in the table.
+    Select count(DISTINCT(salesman_id)) from SALESMAN;
