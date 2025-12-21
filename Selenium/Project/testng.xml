@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="FSTSeleniumProject" thread-count="4" parallel="classes"> <!-- Test Suite -->
+    <!-- <groups>
+        <run>
+            <include name="Test" />
+        </run>
+    </groups>-->
+    <test name="FST_LMSTool"> <!-- Test Classes -->
+    	<parameter name="username" value="root"/>
+    	<parameter name="password" value="pa$$w0rd"/>
+        <classes>
+            <class name="seleniumLMSProj.LoginTest" />
+            <!--class name="examples.Activity4_DemoOne" />
+            <class name="examples.Activity4_DemoTwo" /-->
+        </classes>
+    </test>
+</suite>
+
