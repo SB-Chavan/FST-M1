@@ -1,7 +1,5 @@
 package activities;
 
-package activities;
-
 import au.com.dius.pact.consumer.dsl.PactDslJsonBody;
 import au.com.dius.pact.consumer.dsl.PactDslWithProvider;
 import au.com.dius.pact.consumer.junit5.PactConsumerTestExt;
@@ -67,4 +65,5 @@ public class ConsumerTest1 {
                 .body("lastName", equalTo("Chavan"))
                 .log().all();
     }
+
 }
